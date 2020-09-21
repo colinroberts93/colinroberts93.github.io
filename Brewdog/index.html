@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Brewdog Barman</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <h1><img src="images/logo.jpg" height="200px" /></h1>
+    <div id="stripe"><button id="randomBeerBtnNav" class="selected">Random Beer</button>
+        <button id="searchBeerBtnNav">Beer Search</button>
+    </div>
+
+    <div id=container>
+        <div id="beerSearchDiv">
+            <h2>Beer Search</h2>
+            <input id="BeerInputSearch" type="text" value="" placeholder="Search..."></input>
+            <button id="BeerSearchBtn">Submit</button>
+
+            <h2 class="search-beer">Search Above For Any Brewdog Beer</h2>
+            <div id="search-result"></div>
+            <div class="beer-component" style="display:none;">
+                <div class="beer-title"></div>
+                <div class="beer-tagline"></div>
+                <div class="beer-abv"></div>
+                <div class="beer-image"><img id="imageSearch" alt="beer" /></div>
+                <div class="beer-description"></div>
+
+                <br>
+            </div>
+        </div>
+
+        <div id="beerRandomDiv">
+            <h2>Beer Randomizer</h2>
+            <div class="randomBeerBtn">
+                <button><img src="images/button.png" /></button>
+            </div>
+            <h2 class="random-beer">Click Above For A Random Beer</h2>
+            <h3 class="random-beerTagline"></h3>
+            <h3 class="random-beerAbv"></h3>
+            <h3 class="random-beerAbv"></h3>
+            <img src="" id="imageRandom" />
+            <p class="randomBeerDescription"></p>
+
+        </div>
+    </div>
+</body>
+
+</html>

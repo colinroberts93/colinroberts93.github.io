@@ -1,0 +1,72 @@
+.winner {
+    color: red;
+}
+
+body {
+    background-color: #232323;
+    margin: 0px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0px;
+    font-weight: normal;
+    line-height: 1.1;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+h2{
+    background-color: white;
+    color: steelblue;
+    margin: 0px;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+.coin { 
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 24px;
+    border-color: darkgreen;
+}
+
+.reset {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 24px;
+    border-color: darkred;
+}
+
+.coin:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.reset:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+input[type=number] {
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding-left: 5px;
+    height: 20px;
+}
+
+.gameNo{
+    color: white;
+}

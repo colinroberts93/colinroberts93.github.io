@@ -1,0 +1,118 @@
+body {
+	margin: 0px;
+	font-family: "arial";
+	font-weight: normal;
+	background-color: #8c8c8c;
+}
+
+h1 {
+	text-align: center;
+	background-color: #0099cc;
+	margin: 0px;
+}
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color: white;
+}
+
+.selected {
+	background: #0099cc;
+	color: white;
+}
+
+button:hover {
+	background: #0099cc;
+	color: white;
+}
+
+button {
+	height: 30px;
+	border: none;
+	background: none;
+	height: 100%;
+	font-family: arial;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	color: #0099cc;
+	font-size: inherit;
+	transition: all 0.3s;
+	outline: none;
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.hidden {
+	display: none;
+}
+
+#beerSearchDiv {
+	text-align: center;
+	background-color: white;
+	max-width: 700px;
+	padding: 10px;
+	box-shadow: 5px 5px 5px #666666;
+	border-radius: 10px;
+}
+
+#beerRandomDiv {
+	text-align: center;
+	background-color: white;
+	max-width: 700px;
+	padding: 10px;
+	box-shadow: 5px 5px 5px #666666;
+	border-radius: 10px;
+}
+
+#container {
+	margin: 20px auto;
+    max-width: 600px;
+    
+}
+
+#imageRandom {
+	max-height: 250px;
+	max-width: 80px;
+}
+
+#imageSearch {
+	max-height: 250px;
+	max-width: 80px;
+}
+
+input[type=text]:focus {
+	background-color: lightblue;
+	border-radius: 0px;
+}
+
+.beer-title {
+	display: block;
+	font-size: 1.5em;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+.beer-tagline {
+	display: block;
+	font-size: 1.17em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+.beer-abv {
+	display: block;
+	font-size: 1.17em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
